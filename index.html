@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+<!--These two script are for the modal stuff -->
+    <script src="js/jquery-3.2.1.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+<!--This is the link for Lato font Light 300 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+  </head>
+  <body>
+  <div class ="container">
+<!-- Title logo and name on right -->
+    <div class="row">
+      <div class="col-md-8">
+        <img src="images/logo.png" alt="CB Logo" class="img-responsive">
+      </div>
+      <div class="col-md-4">
+        <h1 class="text-right">Corbin Buckley</h1>
+        <h3 class="text-right">Full Stack Ninja</h3>
+      </div>
+    </div>
+<!-- Middle image across screen -->
+    <div class="row">
+      <div class="col-md-12">
+        <img src="https://graphiclight.files.wordpress.com/2012/09/nightlights.jpg" alt="Night photo of highway lights" class="img-responsive">
+      </div>
+    </div>
+<!-- Featured work  -->
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+<!-- 3 boxes for images arcross screen -->
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/movies.png" alt="Moive Popcorn" class="img-responsive" data-toggle="modal" data-target="#project1">
+        <h3 class="text-uppercase text-center">Moive Rating</h3>
+
+        <p class="text-center"><a href="http://www.byui.edu">BYU-Idaho</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/htmlogo.png" alt="html logo" class="img-responsive" data-toggle="modal" data-target="#project2">
+        <h3 class="text-uppercase text-center">HTML</h3>
+        <p class="text-center">Link to webaddress</p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/python.png" alt="python logo" class="img-responsive" data-toggle="modal" data-target="#project3">
+        <h3 class="text-uppercase text-center">Python</h3>
+        <p class="text-center">Link to webaddress</p>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Moive Rating</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/movies.png" alt="Moive Popcorn" class="img-responsive">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">HTML Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/htmlogo.png" alt="html logo" class="img-responsive">
+                    I can write HTML to make awesome websites across any browser.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Python</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/python.png" alt="python logo" class="img-responsive">
+                    I can write code in python. This is an example of code I used in a data science project.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
