@@ -1,6 +1,6 @@
-*{
+/**{
   border: 1px solid red !important;
-}
+} */
 * {
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -9,4 +9,16 @@
 }
 *{
   font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 450px) {
+    h1,h2,h3 {
+        font-size: 2em;
+    }
+    .img {
+        display: none;
+    }
+    .px450 {
+        display: none;
+    }
+
 }
