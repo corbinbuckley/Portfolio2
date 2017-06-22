@@ -18,15 +18,20 @@ h1,h2,h3 {
 h2 {
     color: #7d97ad;
 }
+
+.img {
+    max-width: 100px;
+}
+
 @media screen and (max-width: 450px) {
-    h1,h2,h3 {
+    h1,h2 {
         font-size: 2em;
     }
     .img {
         display: none;
     }
     .px450 {
-        display: none;
+        font-size: 1em;
     }
 
 }
